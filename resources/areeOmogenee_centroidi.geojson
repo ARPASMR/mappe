@@ -1,0 +1,36 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "name": "Valcamonica", "codice": "F9" }, "geometry": { "type": "Point", "coordinates": [ 10.351688084110478, 46.080780551349413 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "name": "Alta Valtellina", "codice": "F3" }, "geometry": { "type": "Point", "coordinates": [ 10.316420994728334, 46.461063154219154 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "name": "Val Chiavenna", "codice": "F1" }, "geometry": { "type": "Point", "coordinates": [ 9.400597797762528, 46.33440430086754 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "name": "Oltrepo Pavese", "codice": "F16" }, "geometry": { "type": "Point", "coordinates": [ 9.214470767779783, 44.890804775454384 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "name": "Alpi Centrali", "codice": "F2" }, "geometry": { "type": "Point", "coordinates": [ 9.872645561885133, 46.199080791391346 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "name": "Alto Serio - Scalve", "codice": "F7" }, "geometry": { "type": "Point", "coordinates": [ 9.994301592249089, 45.961154816953837 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "name": "Pedemontana Occidentale", "codice": "F12" }, "geometry": { "type": "Point", "coordinates": [ 8.951769592579431, 45.724466249232165 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "name": "Pianura Occidentale", "codice": "F13" }, "geometry": { "type": "Point", "coordinates": [ 9.253841033925566, 45.336925542877758 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "name": "Pianura Orientale", "codice": "F14" }, "geometry": { "type": "Point", "coordinates": [ 10.434940589044361, 45.214265913806663 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "name": "Lario", "codice": "F5" }, "geometry": { "type": "Point", "coordinates": [ 9.284969073331192, 45.979349778821202 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "name": "Mella - Chiesa", "codice": "F10" }, "geometry": { "type": "Point", "coordinates": [ 10.342339955517014, 45.686928261844947 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "name": "Basso Serio - Sebino", "codice": "F8" }, "geometry": { "type": "Point", "coordinates": [ 9.957995473834304, 45.739658686732774 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "name": "Brembo", "codice": "F6" }, "geometry": { "type": "Point", "coordinates": [ 9.65709258257875, 45.888018143887692 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "name": "Verbano", "codice": "F4" }, "geometry": { "type": "Point", "coordinates": [ 8.771616507886538, 45.92684158635204 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "name": "Garda", "codice": "F11" }, "geometry": { "type": "Point", "coordinates": [ 10.611524125791695, 45.572666855656337 ] } }
+
+]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>ARPA Lombardia - Temperature Minime e Massime</title>
+		<meta charset=utf-8>
+		<!-- librerie esterne -->
+		<!--<script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&language=it&region=IT"></script>-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4TMCojf1-AbAhGoad6odGKINgzo82JV0&v=3&sensor=false&language=it&region=IT"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<!-- fogli di stile -->
+		<link rel="stylesheet" type="text/css" href="resources/stileMappa.css"  />
+		<!-- javascript -->
+		<script src="resources/js/googleAPI3.js"></script>
+		<script src="resources/js/temperatureMinMax.js"></script>
+		<script src="resources/js/termometro.js"></script>
+		<script>
+			$(document).ready(function() {
+				// ### Inizializza mappa ###
+				inizializzaMappa();
+				// ### Aggiunge pannelli di controllo ###
+				pannelliTemperatureMinMax();
+				pannelloDiRicerca();
+				// ### Aggiunge layer Temperature ###
+				visualizzaLayerTemperatureMinMax();
+				visualizzaMarkerTermometro();
+			});
+    	</script>
+    	
+	</head>
+	
+	<body>
+		
+		<div id="contenitoreMappa">
+			<div id="pannello-temperatureMinMax" class="pannelloDiControllo pannelloSfondoBianco">
+				Temperature: 
+				<select id="selettoreTemperature" onchange="switchMassimeMinime();">
+					<option value="max" selected="selected">Massime</option>
+					<option value="min">Minime</option>
+				</select>
+				&nbsp;
+				Opacità: 
+				<select id="selettoreOpacita" onchange="modificaOpacitaTemperature();">
+					<option value="0">0</option>
+					<option value="0.1">10%</option>
+					<option value="0.2">20%</option>
+					<option value="0.3">30%</option>
+					<option value="0.4">40%</option>
+					<option value="0.5">50%</option>
+					<option value="0.6">60%</option>
+					<option value="0.7" selected="selected">70%</option>
+					<option value="0.8">80%</option>
+					<option value="0.9">90%</option>
+					<option value="1">100%</option>
+				</select>
+				<img id="indicatoreFiltro" src="resources/img/indicator.gif" style="vertical-align: middle; display: none;" />
+			</div>
+			<div id="mappaGoogle"></div>
+            <div><p>Fonte - Arpa Lombardia - Servizio Meteorologico regionale</p></div>
+		</div>	
+		<div id="graficoTermometro"></div>
+			
+	</body>
+	
+</html>

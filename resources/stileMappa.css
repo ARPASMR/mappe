@@ -1,0 +1,49 @@
+
+	/** ##################################
+	 * 	###  Inizializzazione di base  ###
+	 *  ################################## */
+		body, div#contenitoreMappa, div#mappaGoogle, div.pannelloDiControllo{
+			margin: 0;
+			padding: 0;
+		}
+
+	/** ##################################
+	 * 	###  Contenitore mappa Google  ###
+	 *  ################################## */
+		div#contenitoreMappa, td#contenitoreMappa{
+			position: relative;
+			font-family: Arial;
+			font-size: 8pt;
+		}
+		div#mappaGoogle{
+			height: 595px;
+			width: 660px;
+		}
+	
+	/** #################################
+	 * 	####  Pannelli di selezione  ####
+	 *  ################################# */
+		div.pannelloDiControllo{
+			position: absolute;
+			z-index: 5;
+			padding: 0px;
+			border: 0px ;
+		}
+			/* font */
+			div.pannelloDiControllo, 
+			div.pannelloDiControllo select, 
+			div.pannelloDiControllo input{
+				font-family: Arial;
+				font-size: 8pt;
+			}
+			/* sfondo */
+			div.pannelloDiControllo.pannelloSfondoBianco{
+				padding: 4px 5px;
+				border: 1px solid black;
+				background-color: White;
+			}
+			/* icone */
+			div.pannelloDiControllo img{
+				vertical-align: middle;
+				margin: 0px 0px;
+			}			

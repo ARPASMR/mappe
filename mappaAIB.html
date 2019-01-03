@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>ARPA Lombardia - Fire Weather Index</title>
+        <meta charset=utf-8>
+        <!-- librerie esterne -->
+        <!--<script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&language=it&region=IT"></script>-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4TMCojf1-AbAhGoad6odGKINgzo82JV0&v=3&sensor=false&language=it&region=IT"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <!-- fogli di stile -->
+        <link rel="stylesheet" type="text/css" href="resources/stileMappa.css"  />
+        <style type="text/css">
+            .etichetteAreeOmogenee {
+                color: Black;
+                font-family: "Lucida Grande", "Arial", sans-serif;
+                font-size: 9pt;
+                font-weight: bold;
+                text-align: center;
+                background-color: white;
+                border: 1px solid black;
+                white-space: nowrap;
+                padding: 2px;
+                opacity:0.6;
+                filter:alpha(opacity=70);
+            }
+        </style>
+        <!-- javascript -->
+        <script src="resources/js/googleAPI3.js"></script>
+        <script src="resources/js/fwi.js"></script>
+        <script src="resources/external/markerwithlabel.js"></script>
+        <script>
+            $(document).ready(function() {
+                // ### Inizializza mappa ###
+                inizializzaMappa();
+                // ### Aggiunge pannelli di controllo ###
+                pannelliFWI();
+                // Aggiunge layer aree omogenee
+                layerAreeOmogenee();
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+    <table class="aibThumb">
+        <tbody>
+            <tr>
+                <td rowspan="8" id="contenitoreMappa">
+                    <div id="pannello-FWI" class="pannelloDiControllo pannelloSfondoBianco">
+                        Visualizza:
+                        <select id="selettoreGrigliato" onchange="switchGrigliato();">
+                            <option value="grigliato" selected="selected">grigliato</option>
+                            <option value="medie">medie</option>
+                        </select>
+                        &nbsp;
+                        Opacità:
+                        <select id="selettoreOpacita" onchange="modificaOpacitaFWI();">
+                            <option value="0">0</option>
+                            <option value="0.1">10%</option>
+                            <option value="0.2">20%</option>
+                            <option value="0.3">30%</option>
+                            <option value="0.4">40%</option>
+                            <option value="0.5">50%</option>
+                            <option value="0.6">60%</option>
+                            <option value="0.7" selected="selected">70%</option>
+                            <option value="0.8">80%</option>
+                            <option value="0.9">90%</option>
+                            <option value="1">100%</option>
+                        </select>
+                        <img id="indicatoreFiltro" src="resources/img/indicator.gif" style="vertical-align: middle; display: none;" />
+                        <br />
+                        <input type="checkbox" id="selettoreEtichette" onchange="switchLayerAreeOmogenee(this);" checked="checked"/>Etichette Aree Omogenee
+                    </div>
+                    <div id="mappaGoogle"></div>
+                    <div><p>Fonte - Arpa Lombardia - Servizio Meteorologico regionale</p></div>
+                </td>
+            </tr>
+            <tr>
+                <th>IERI<br />(analisi)</th>
+                <th>OGGI<br />(previsione</th>
+                <th>DOMANI<br />(previsione</th>
+            </tr>
+            <tr>
+                <td><a onclick="switchLayerAIB(this, 'ieri','ffmc')" href="#">   <img src="fwi_img/ffmc_AO_ieri.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'oggi','ffmc')" href="#">   <img src="fwi_img/ffmc_LL_AO_oggi.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'domani','ffmc')" href="#"> <img src="fwi_img/ffmc_LL_AO_domani.png" /></a></td>
+                <th>FFMC</th>
+            </tr>
+            <tr>
+                <td><a onclick="switchLayerAIB(this, 'ieri','dmc')" href="#"><img src="fwi_img/dmc_AO_ieri.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'oggi','dmc')" href="#"><img src="fwi_img/dmc_LL_AO_oggi.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'domani','dmc')" href="#"><img src="fwi_img/dmc_LL_AO_domani.png" /></a></td>
+                <th>DMC</th>
+            </tr>
+            <tr>
+                <td><a onclick="switchLayerAIB(this, 'ieri','dc')" href="#"><img src="fwi_img/dc_AO_ieri.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'oggi','dc')" href="#"><img src="fwi_img/dc_LL_AO_oggi.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'domani','dc')" href="#"><img src="fwi_img/dc_LL_AO_domani.png" /></a></td>
+                <th>DC</th>
+            </tr>
+            <tr>
+                <td><a onclick="switchLayerAIB(this, 'ieri','isi')" href="#"><img src="fwi_img/isi_AO_ieri.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'oggi','isi')" href="#"><img src="fwi_img/isi_LL_AO_oggi.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'domani','isi')" href="#"><img src="fwi_img/isi_LL_AO_domani.png" /></a></td>
+                <th>ISI</th>
+            </tr>
+            <tr>
+                <td><a onclick="switchLayerAIB(this, 'ieri','bui')" href="#"><img src="fwi_img/bui_AO_ieri.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'oggi','bui')" href="#"><img src="fwi_img/bui_LL_AO_oggi.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'domani','bui')" href="#"><img src="fwi_img/bui_LL_AO_domani.png" /></a></td>
+                <th>BUI</th>
+            </tr>
+            <tr>
+                <td><a onclick="switchLayerAIB(this, 'ieri','fwi')" href="#"><img src="fwi_img/fwi_AO_ieri.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'oggi','fwi')" href="#"><img src="fwi_img/fwi_LL_AO_oggi.png" /></a></td>
+                <td><a onclick="switchLayerAIB(this, 'domani','fwi')" href="#"><img src="fwi_img/fwi_LL_AO_domani.png" /></a></td>
+                <th>FWI</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <style>
+        table.aibThumb td{
+           border: 1px solid White;
+        }
+            table.aibThumb td a img{
+                width: 80px;
+                height: 80px;
+            }
+    </style>
+
+
+    </body>
+
+</html>

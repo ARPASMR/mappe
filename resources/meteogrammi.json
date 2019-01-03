@@ -1,0 +1,134 @@
+{
+  "meteogrammi": [
+    {
+      "grafico": "PR",
+      "variabili": [
+        {
+          "nome": "Pressione [hPa]",
+          "sensore": "PA",
+          "etichetta": "Pressione",
+          "colore": "#FF80DF",
+          "tipo": "area",
+          "decimali": 0
+        },
+        {
+          "nome": "Pioggia [mm/h]",
+          "sensore": "PP",
+          "etichetta": "Pioggia",
+          "colore": "#000000",
+          "tipo": "bars",
+          "decimali": 1,
+          "minimo": 0
+        },
+        {
+          "asse": 1,
+          "etichetta": "Pioggia Cumulata",
+          "colore": "#555555",
+          "tipo": "line",
+          "sensore": "PP",
+          "decimali": 1
+        }
+      ]
+    },
+    {
+      "grafico": "TU",
+      "variabili": [
+        {
+          "nome": "Temperatura [°C]",
+          "sensore": "T",
+          "etichetta": "Temperatura",
+          "colore": "#53BDFF",
+          "tipo": "area",
+          "decimali": 1
+        },
+        {
+          "nome": "Umidità Relativa [%]",
+          "sensore": "UR",
+          "etichetta": "Umidità Relativa",
+          "colore": "#000000",
+          "tipo": "line",
+          "decimali": 1,
+          "minimo": 0,
+          "massimo": 100
+        }
+      ]
+    },
+    {
+      "grafico": "DV",
+      "variabili": [
+        {
+          "nome": "Direzione Vento",
+          "sensore": "DVS",
+          "etichetta": "Direzione Vento DVS",
+          "colore": "#036603",
+          "tipo": "scatter",
+          "decimali": 0,
+          "minimo": 0,
+          "massimo": 360
+        },
+        {
+          "nome": "Velocità Vento [m/s]",
+          "sensore": "VVS",
+          "etichetta": "Velocità Vento VVS",
+          "colore": "#FDB70E",
+          "tipo": "area",
+          "decimali": 1
+        },
+        {
+          "asse": 0,
+          "colore": "#44ff44",
+          "tipo": "scatter",
+          "etichetta": "Direzione Vento DV",
+          "sensore": "DV",
+          "decimali": 0
+        },
+        {
+          "asse": 0,
+          "colore": "#A38538",
+          "tipo": "line",
+          "etichetta": "Velocità Vento VV",
+          "sensore": "VV",
+          "decimali": 1
+        }
+      ]
+    },
+    {
+      "grafico": "GN",
+      "variabili": [
+        {
+          "nome": "Radiazione Globale [W/m2]",
+          "sensore": "RG",
+          "etichetta": "Radiazione Globale",
+          "colore": "#2F8900",
+          "tipo": "area",
+          "decimali": 1,
+          "minimo": -100,
+          "massimo": 1000
+        },
+        {
+          "nome": "Radiazione Netta [W/m2]",
+          "sensore": "RN",
+          "etichetta": "Radiazione Netta",
+          "colore": "#830044",
+          "tipo": "area",
+          "decimali": 1,
+          "minimo": -100,
+          "massimo": 1000
+        }
+      ]
+    },{
+      "grafico": "NV",
+      "variabili": [
+        {
+          "nome": "Copertura manto nevoso [cm]",
+          "sensore": "N",
+          "etichetta": "Copertura manto nevoso",
+          "colore": "#53BDFF",
+          "tipo": "area",
+          "minimo": 0,
+          "massimo": 30
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+<!-- creata il  Tue Nov 12 14:29:46 2013  dal programma crea_staz_lomb.R-->
+<markers>
+<marker idstaz="100"  nome="Milano - Lambrate"  lat="45.4967804"  lon="9.2575197"  quota="120"  sens="GRRDVUT"  />
+<marker idstaz="102"  nome="S.Colombano al Lambro"  lat="45.1870003"  lon="9.4862604"  quota="80"  sens="DRRGVUT"  />
+<marker idstaz="106"  nome="Varzi - loc .Nivione"  lat="44.8239098"  lon="9.1950397"  quota="500"  sens="DRRVGUT"  />
+<marker idstaz="107"  nome="Sondrio - fond. Fojanini"  lat="46.1655998"  lon="9.8485003"  quota="307"  sens="DRGUTVD"  />
+<marker idstaz="108"  nome="Samolaco - via Vignola"  lat="46.2361107"  lon="9.4266701"  quota="206"  sens="DRVGUT"  />
+<marker idstaz="109"  nome="S.Angelo Lodigiano"  lat="45.2606697"  lon="9.3796701"  quota="60"  sens="RDVGUT"  />
+<marker idstaz="110"  nome="Gonzaga - Palidano di Gonzaga"  lat="44.9644699"  lon="10.7675304"  quota="22"  sens="DRVGUT"  />
+<marker idstaz="111"  nome="Moggio"  lat="45.9131012"  lon="9.49751"  quota="1234"  sens="PDRVGUT"  />
+<marker idstaz="114"  nome="Landriano"  lat="45.3207703"  lon="9.2642899"  quota="88"  sens="RDVGPUTVD"  />
+<marker idstaz="117"  nome="Edolo - IPSA Meneghetti"  lat="46.1757317"  lon="10.3333998"  quota="699"  sens="RUT"  />
+<marker idstaz="119"  nome="San Giovanni Bianco - Cornalita"  lat="45.8823509"  lon="9.6470699"  quota="700"  sens="RRDGVUT"  />
+<marker idstaz="123"  nome="Cavenago d` Adda"  lat="45.2698288"  lon="9.5617504"  quota="67"  sens="RDGVUT"  />
+<marker idstaz="125"  nome="Castello d` Agogna"  lat="45.233181"  lon="8.6827097"  quota="106"  sens="RDVGUTN"  />
+<marker idstaz="126"  nome="Casatenovo - suolo"  lat="45.7019501"  lon="9.3091497"  quota="360"  sens="RUT"  />
+<marker idstaz="127"  nome="Casatenovo  - quota"  lat="45.7019501"  lon="9.3091497"  quota="360"  sens="RGDV"  />
+<marker idstaz="129"  nome="Capo di ponte"  lat="46.0265694"  lon="10.3425102"  quota="362"  sens="RRDGVUT"  />
+<marker idstaz="130"  nome="Brescia - ITAS pastori"  lat="45.5261497"  lon="10.2613802"  quota="149"  sens="RUTR"  />
+<marker idstaz="132"  nome="Bergamo - Stezzano"  lat="45.6605301"  lon="9.6587801"  quota="211"  sens="RGUTVD"  />
+<marker idstaz="133"  nome="Bema"  lat="46.1058617"  lon="9.5691099"  quota="800"  sens="DRVGUT"  />
+<marker idstaz="134"  nome="Corzano - Bargnano"  lat="45.4337311"  lon="10.0390301"  quota="93"  sens="RGUTDV"  />
+<marker idstaz="136"  nome="Persico Dosimo"  lat="45.1636314"  lon="10.0588303"  quota="44"  sens="RDVGUT"  />
+<marker idstaz="137"  nome="Rivolta d` Adda"  lat="45.4440918"  lon="9.5207005"  quota="102"  sens="DRVUTDV"  />
+<marker idstaz="139"  nome="Virgilio - Mantova Cerese"  lat="45.1150513"  lon="10.7926598"  quota="19"  sens="DRRGVUT"  />
+<marker idstaz="140"  nome="Motta Visconti"  lat="45.2819595"  lon="8.9885798"  quota="100"  sens="RVDNGPUT"  />
+<marker idstaz="141"  nome="Vertemate con Minoprio"  lat="45.7190094"  lon="9.0854902"  quota="310"  sens="DVRVDNGPUT"  />
+<marker idstaz="142"  nome="Caiolo"  lat="46.1549301"  lon="9.7925196"  quota="274"  sens="DVRVDNGPUT"  />
+<marker idstaz="143"  nome="Livigno - Passo Foscagno"  lat="46.4944305"  lon="10.2075005"  quota="2250"  sens="DVRVDGNPUTT"  />
+<marker idstaz="144"  nome="Madesimo - Spluga"  lat="46.4716682"  lon="9.3481302"  quota="1915"  sens="VRDNGPUT"  />
+<marker idstaz="145"  nome="Darfo - via de Amicis"  lat="45.8745995"  lon="10.1773701"  quota="222"  sens="RVNDGPTU"  />
+<marker idstaz="146"  nome="Mezzoldo - Passo S.Marco"  lat="46.0382614"  lon="9.6286497"  quota="1824"  sens="VRDGNPUTT"  />
+<marker idstaz="147"  nome="Cinisello Balsamo - Parco Nord"  lat="45.5426712"  lon="9.2055998"  quota="142"  sens="VDRVDNGUT"  />
+<marker idstaz="148"  nome="Arconate"  lat="45.5485191"  lon="8.8473301"  quota="182"  sens="DVRVDNGPUT"  />
+<marker idstaz="150"  nome="Pieve S. Giacomo"  lat="45.1217308"  lon="10.1951904"  quota="39"  sens="DVRVDNGPUT"  />
+<marker idstaz="166"  nome="Mantova - Lunetta 2"  lat="45.1579895"  lon="10.8239403"  quota="25"  sens="VDVRDGNUPT"  />
+<marker idstaz="167"  nome="Ostiglia - Serravalle a Po"  lat="45.0968018"  lon="11.10641"  quota="14"  sens="DVNGDVRUT"  />
+<marker idstaz="212"  nome="Canzo - M. Prasanto"  lat="45.8481407"  lon="9.31814"  quota="1233"  sens="RTUDV"  />
+<marker idstaz="213"  nome="Orino"  lat="45.8781204"  lon="8.7109499"  quota="450"  sens="RTUDV"  />
+<marker idstaz="214"  nome="Bigarello"  lat="45.1884995"  lon="10.8871403"  quota="15"  sens="DRVGUT"  />
+<marker idstaz="501"  nome="Milano - viale Marche"  lat="45.4963188"  lon="9.1909304"  quota="129"  sens="UVDDTVD"  />
+<marker idstaz="502"  nome="Milano - via Juvara"  lat="45.4732285"  lon="9.2223196"  quota="122"  sens="PGNUVDDTR"  />
+<marker idstaz="503"  nome="Milano - P.zza  Zavattari"  lat="45.4760704"  lon="9.1417904"  quota="122"  sens="UVDDTRVD"  />
+<marker idstaz="512"  nome="Carate Brianza"  lat="45.6720314"  lon="9.2345896"  quota="256"  sens="PGNUVDDTRDV"  />
+<marker idstaz="513"  nome="Trezzo d'Adda"  lat="45.6137009"  lon="9.5081301"  quota="199"  sens="PUVDDTR"  />
+<marker idstaz="525"  nome="Corsico"  lat="45.4361115"  lon="9.0974102"  quota="119"  sens="UVDDTRVD"  />
+<marker idstaz="530"  nome="Agrate Brianza"  lat="45.5757904"  lon="9.3541098"  quota="162"  sens="PUVDDTRVD"  />
+<marker idstaz="535"  nome="Lacchiarella"  lat="45.3245201"  lon="9.1345301"  quota="97"  sens="GNUVDDTVD"  />
+<marker idstaz="552"  nome="Varese - Vidoletti"  lat="45.8368988"  lon="8.8039303"  quota="425"  sens="PUVDDTRVD"  />
+<marker idstaz="554"  nome="Saronno"  lat="45.6262207"  lon="9.0400696"  quota="212"  sens="TUDRPGVVD"  />
+<marker idstaz="555"  nome="Busto Arsizio - via Magenta"  lat="45.6107407"  lon="8.8501196"  quota="222"  sens="UPVDDTRVD"  />
+<marker idstaz="557"  nome="Lonate Pozzolo"  lat="45.5940285"  lon="8.7407999"  quota="204"  sens="PGUVDDTRVD"  />
+<marker idstaz="558"  nome="Busto Arsizio"  lat="45.5828896"  lon="8.8344898"  quota="206"  sens="R"  />
+<marker idstaz="559"  nome="Somma Lombardo"  lat="45.6495399"  lon="8.7126999"  quota="210"  sens="GNUVDDTRDV"  />
+<marker idstaz="562"  nome="Mariano Comense"  lat="45.6886597"  lon="9.1806498"  quota="251"  sens="VDDTRVD"  />
+<marker idstaz="564"  nome="Erba"  lat="45.8085289"  lon="9.2217102"  quota="279"  sens="PUTR"  />
+<marker idstaz="570"  nome="Tirano"  lat="46.2170677"  lon="10.156765"  quota="449"  sens="PUT"  />
+<marker idstaz="571"  nome="Bormio"  lat="46.4695358"  lon="10.3754044"  quota="1225"  sens="PUVDDTRDV"  />
+<marker idstaz="572"  nome="Morbegno - via Cortivacci"  lat="46.1322899"  lon="9.5661564"  quota="262"  sens="VPGUDDTRDV"  />
+<marker idstaz="573"  nome="Colico"  lat="46.1374664"  lon="9.3850145"  quota="221"  sens="PUVDDTRDV"  />
+<marker idstaz="575"  nome="Nibionno"  lat="45.7511215"  lon="9.2650204"  quota="310"  sens="UTRDDVDV"  />
+<marker idstaz="583"  nome="Bergamo - v.Meucci"  lat="45.69104"  lon="9.6436596"  quota="249"  sens="VDDVD"  />
+<marker idstaz="586"  nome="Costa Volpino"  lat="45.8271599"  lon="10.0970697"  quota="192"  sens="GUVDDTRVD"  />
+<marker idstaz="593"  nome="Ciserano"  lat="45.5915604"  lon="9.6061401"  quota="159"  sens="VDD"  />
+<marker idstaz="594"  nome="Bergamo - v.Goisis"  lat="45.7159195"  lon="9.6889696"  quota="290"  sens="GUVDDTRVD"  />
+<marker idstaz="595"  nome="Filago - v.Fermi"  lat="45.6338692"  lon="9.5560999"  quota="190"  sens="GUVDDTR"  />
+<marker idstaz="596"  nome="Osio Sotto"  lat="45.6205788"  lon="9.6115398"  quota="184"  sens="PGUVDDTRVD"  />
+<marker idstaz="598"  nome="S.Rocco al Porto"  lat="45.0819893"  lon="9.7007904"  quota="50"  sens="PUDDTV"  />
+<marker idstaz="614"  nome="Rodano"  lat="45.47258"  lon="9.3535004"  quota="112"  sens="GNUVDDTRVD"  />
+<marker idstaz="617"  nome="Tavazzano"  lat="45.3342896"  lon="9.4262695"  quota="80"  sens="PGNUTR"  />
+<marker idstaz="620"  nome="Milano - v.Brera"  lat="45.4716606"  lon="9.1891098"  quota="122"  sens="UVDDTVD"  />
+<marker idstaz="629"  nome="Crema - via XI febbraio"  lat="45.3663101"  lon="9.7039499"  quota="79"  sens="PGUTDRV"  />
+<marker idstaz="635"  nome="Tavazzano"  lat="45.3344917"  lon="9.4260302"  quota="80"  sens="DV"  />
+<marker idstaz="642"  nome="Pavia - v.Folperti"  lat="45.1946793"  lon="9.16465"  quota="77"  sens="VUTGPRD"  />
+<marker idstaz="646"  nome="Como - Villa Gallia"  lat="45.8150406"  lon="9.0669804"  quota="201"  sens="RPTUDDGVVD"  />
+<marker idstaz="653"  nome="Brescia - via Ziziola"  lat="45.5145683"  lon="10.2184601"  quota="125"  sens="VUPTRDVD"  />
+<marker idstaz="654"  nome="Sarezzo - via Minelli"  lat="45.6496086"  lon="10.20508"  quota="269"  sens="VDVD"  />
+<marker idstaz="656"  nome="Gambara"  lat="45.2495499"  lon="10.2991304"  quota="47"  sens="VUTRPDVD"  />
+<marker idstaz="657"  nome="Lonato"  lat="45.4637604"  lon="10.4807796"  quota="180"  sens="UTP"  />
+<marker idstaz="659"  nome="Odolo"  lat="45.6460495"  lon="10.3893003"  quota="349"  sens="UTRP"  />
+<marker idstaz="660"  nome="Ospitaletto"  lat="45.5532608"  lon="10.0849199"  quota="155"  sens="VDVD"  />
+<marker idstaz="661"  nome="Rezzato"  lat="45.5157089"  lon="10.3362398"  quota="147"  sens="VDVD"  />
+<marker idstaz="663"  nome="Mantova - via Ariosto"  lat="45.1452713"  lon="10.8033304"  quota="18"  sens="DVDVD"  />
+<marker idstaz="667"  nome="Marmirolo - Bosco Fontana"  lat="45.2081909"  lon="10.74265"  quota="22"  sens="UTGNPRDVDV"  />
+<marker idstaz="670"  nome="Mantova - S.Agnese"  lat="45.1605797"  lon="10.7955704"  quota="22"  sens="PGTU"  />
+<marker idstaz="671"  nome="Mantova - Tridolino"  lat="45.1533318"  lon="10.8592701"  quota="22"  sens="DRPGTUV"  />
+<marker idstaz="672"  nome="Cornale"  lat="45.0400887"  lon="8.9141598"  quota="74"  sens="DRPGNTUV"  />
+<marker idstaz="677"  nome="Cremona - Via Fatebenefratelli"  lat="45.14254"  lon="10.0438499"  quota="43"  sens="DPRNGTUV"  />
+<marker idstaz="679"  nome="Valmadrera"  lat="45.8422089"  lon="9.3516598"  quota="247"  sens="UVTGPDDRT"  />
+<marker idstaz="687"  nome="Ferno"  lat="45.6192513"  lon="8.7569799"  quota="215"  sens="DDPGTUVRVD"  />
+<marker idstaz="695"  nome="Ponti sul Mincio"  lat="45.4127808"  lon="10.6833601"  quota="113"  sens="DRPGTUVVD"  />
+<marker idstaz="706"  nome="Lecco - Via Sora"  lat="45.8637505"  lon="9.39995"  quota="272"  sens="RTDDVUGDV"  />
+<marker idstaz="816"  nome="Sermide"  lat="45.0153618"  lon="11.2899399"  quota="10"  sens="RT"  />
+<marker idstaz="817"  nome="Pavia - Ponte Ticino SS35"  lat="45.1797905"  lon="9.1464796"  quota="71"  sens="RT"  />
+<marker idstaz="818"  nome="Gera Lario - S.Agata"  lat="46.1503296"  lon="9.4122801"  quota="199"  sens="R"  />
+<marker idstaz="819"  nome="Lozio"  lat="45.9805603"  lon="10.2611103"  quota="994"  sens="TR"  />
+<marker idstaz="820"  nome="Pisogne - Fraine"  lat="45.8138885"  lon="10.15306"  quota="842"  sens="TR"  />
+<marker idstaz="821"  nome="Colere - Dezzo di Scalve"  lat="45.9749985"  lon="10.1041698"  quota="599"  sens="R"  />
+<marker idstaz="822"  nome="Valtorta"  lat="45.9736099"  lon="9.5388899"  quota="982"  sens="RTU"  />
+<marker idstaz="823"  nome="Piazza Brembana"  lat="45.9461098"  lon="9.67278"  quota="510"  sens="RUT"  />
+<marker idstaz="824"  nome="Clusone"  lat="45.8863907"  lon="9.94666"  quota="591"  sens="TRG"  />
+<marker idstaz="832"  nome="Chiesa Valmalenco Lago Palu"  lat="46.2924995"  lon="9.8822203"  quota="2155"  sens="TRVD"  />
+<marker idstaz="833"  nome="Gerola Alta - Pescegallo"  lat="46.0250015"  lon="9.5788898"  quota="1845"  sens="TRVD"  />
+<marker idstaz="835"  nome="S. Colombano - Oga"  lat="46.4611092"  lon="10.3433399"  quota="2295"  sens="TRUPVDGVD"  />
+<marker idstaz="836"  nome="Aprica"  lat="46.1486092"  lon="10.1594496"  quota="1950"  sens="TRVDU"  />
+<marker idstaz="846"  nome="Edolo - Pantano d`Avio"  lat="46.1749992"  lon="10.4708405"  quota="2105"  sens="TRPVDGU"  />
+<marker idstaz="847"  nome="Carona - Carisole"  lat="46.0413895"  lon="9.7972298"  quota="1950"  sens="TRPVDG"  />
+<marker idstaz="848"  nome="Livigno - La Vallaccia"  lat="46.4777794"  lon="10.2055597"  quota="2655"  sens="TRUPVDG"  />
+<marker idstaz="851"  nome="Treviso Bresciano - Cavacca"  lat="45.7241592"  lon="10.4991703"  quota="1147"  sens="RTU"  />
+<marker idstaz="855"  nome="Varzi - via Mazzini"  lat="44.8219414"  lon="9.1980495"  quota="485"  sens="RT"  />
+<marker idstaz="856"  nome="Fortunago"  lat="44.9124985"  lon="9.1949902"  quota="501"  sens="RT"  />
+<marker idstaz="857"  nome="S.Margherita Staffora"  lat="44.6805496"  lon="9.21945"  quota="1363"  sens="RT"  />
+<marker idstaz="858"  nome="Santa Margherita di Staffora - Casanova"  lat="44.7680283"  lon="9.2390499"  quota="575"  sens="RT"  />
+<marker idstaz="859"  nome="Luino"  lat="46.0041389"  lon="8.7427197"  quota="205"  sens="RT"  />
+<marker idstaz="862"  nome="Lodi"  lat="45.3190804"  lon="9.5087004"  quota="64"  sens="R"  />
+<marker idstaz="863"  nome="Lozza - Ponte Vedano"  lat="45.7759514"  lon="8.8686895"  quota="276"  sens="RT"  />
+<marker idstaz="865"  nome="Cantu Asnago"  lat="45.7185287"  lon="9.1003704"  quota="244"  sens="RT"  />
+<marker idstaz="866"  nome="Paderno Dugnano"  lat="45.5828094"  lon="9.1589804"  quota="168"  sens="R"  />
+<marker idstaz="867"  nome="Caslino d` Erba"  lat="45.8353882"  lon="9.2323704"  quota="427"  sens="RT"  />
+<marker idstaz="869"  nome="Milano - via Feltre"  lat="45.4916306"  lon="9.2487402"  quota="127"  sens="T"  />
+<marker idstaz="870"  nome="Como - Villa Geno"  lat="45.8202515"  lon="9.0799103"  quota="200"  sens="RT"  />
+<marker idstaz="873"  nome="Monzambano"  lat="45.3926392"  lon="10.7062998"  quota="62"  sens="RT"  />
+<marker idstaz="874"  nome="Sarnico"  lat="45.6659393"  lon="9.9568901"  quota="197"  sens="RT"  />
+<marker idstaz="876"  nome="Caino"  lat="45.6097183"  lon="10.3222198"  quota="428"  sens="RT"  />
+<marker idstaz="877"  nome="Bovegno"  lat="45.7813797"  lon="10.2631798"  quota="572"  sens="R"  />
+<marker idstaz="878"  nome="Darfo - SS42"  lat="45.8707314"  lon="10.1565304"  quota="205"  sens="RT"  />
+<marker idstaz="884"  nome="Cuveglio"  lat="45.9033318"  lon="8.7427702"  quota="294"  sens="RT"  />
+<marker idstaz="885"  nome="Arcisate"  lat="45.8461113"  lon="8.8905497"  quota="383"  sens="RT"  />
+<marker idstaz="886"  nome="Vigevano - Ponte Ticino SS494"  lat="45.3414307"  lon="8.8796797"  quota="94"  sens="RT"  />
+<marker idstaz="889"  nome="Bergamo - Torre Boldone"  lat="45.7161102"  lon="9.6916704"  quota="311"  sens="TR"  />
+<marker idstaz="894"  nome="Lomello"  lat="45.1236496"  lon="8.7993803"  quota="95"  sens="RT"  />
+<marker idstaz="895"  nome="Soncino"  lat="45.3991699"  lon="9.8902798"  quota="87"  sens="RT"  />
+<marker idstaz="897"  nome="Busto Arsizio - via Rossini"  lat="45.6263885"  lon="8.8238802"  quota="242"  sens="RT"  />
+<marker idstaz="898"  nome="Codogno"  lat="45.1619492"  lon="9.72083"  quota="68"  sens="R"  />
+<marker idstaz="899"  nome="Castiglione delle Stiviere"  lat="45.3741684"  lon="10.51194"  quota="109"  sens="RT"  />
+<marker idstaz="900"  nome="Chiari"  lat="45.5222206"  lon="9.9377804"  quota="140"  sens="RVD"  />
+<marker idstaz="901"  nome="Crema - via Camporelle"  lat="45.3565598"  lon="9.6714401"  quota="103"  sens="RT"  />
+<marker idstaz="902"  nome="Barni"  lat="45.9052811"  lon="9.2661104"  quota="625"  sens="RT"  />
+<marker idstaz="903"  nome="Misinto"  lat="45.6613808"  lon="9.06639"  quota="247"  sens="RT"  />
+<marker idstaz="904"  nome="Paisco Loveno"  lat="46.0786095"  lon="10.2969398"  quota="816"  sens="RT"  />
+<marker idstaz="905"  nome="Cevo"  lat="46.0805588"  lon="10.37778"  quota="1128"  sens="RT"  />
+<marker idstaz="906"  nome="Asola - Sorbara d`Asola"  lat="45.2169495"  lon="10.4158401"  quota="41"  sens="RT"  />
+<marker idstaz="907"  nome="Varese - via Appiani"  lat="45.8325005"  lon="8.8236103"  quota="416"  sens="RT"  />
+<marker idstaz="908"  nome="Voghera"  lat="44.9902802"  lon="9.0175104"  quota="95"  sens="RT"  />
+<marker idstaz="909"  nome="Bienno"  lat="45.9455605"  lon="10.2869501"  quota="501"  sens="RT"  />
+<marker idstaz="910"  nome="Manerbio"  lat="45.3597488"  lon="10.1455498"  quota="60"  sens="RT"  />
+<marker idstaz="911"  nome="Lambrugo"  lat="45.7619514"  lon="9.2444496"  quota="273"  sens="RT"  />
+<marker idstaz="912"  nome="Foppolo"  lat="46.0424995"  lon="9.7561102"  quota="1682"  sens="RTU"  />
+<marker idstaz="998"  nome="Laveno"  lat="45.9099083"  lon="8.61868"  quota="207"  sens="RTVD"  />
+<marker idstaz="999"  nome="Laveno Mombello - Poggio S.Elsa"  lat="45.9091606"  lon="8.6452799"  quota="951"  sens="RTUPVD"  />
+<marker idstaz="1075"  nome="Edolo - v.Morino 34"  lat="46.1725273"  lon="10.3388605"  quota="659"  sens="G"  />
+<marker idstaz="1077"  nome="Oltre il Colle"  lat="45.8905182"  lon="9.7892408"  quota="1138"  sens="RPGUT"  />
+<marker idstaz="1201"  nome="Canevino"  lat="44.9347992"  lon="9.2756701"  quota="455"  sens="TPRU"  />
+<marker idstaz="1202"  nome="Vercana"  lat="46.1818504"  lon="9.3246899"  quota="980"  sens="TPVDRUTG"  />
+<marker idstaz="1205"  nome="Molteno"  lat="45.78302"  lon="9.3071003"  quota="278"  sens="TPRU"  />
+<marker idstaz="1206"  nome="Cavaria"  lat="45.6894989"  lon="8.8077002"  quota="274"  sens="TPRU"  />
+<marker idstaz="1209"  nome="Rota d` Imagna"  lat="45.8398399"  lon="9.5113497"  quota="674"  sens="TPRU"  />
+<marker idstaz="1210"  nome="Ranzanico"  lat="45.7870598"  lon="9.9327497"  quota="512"  sens="TPRU"  />
+<marker idstaz="1211"  nome="Castronno"  lat="45.7487297"  lon="8.8207598"  quota="379"  sens="TPVDR"  />
+<marker idstaz="1212"  nome="Castione della Presolana"  lat="45.9284592"  lon="10.0633297"  quota="1180"  sens="TPRU"  />
+<marker idstaz="1216"  nome="Valbondione"  lat="46.0645714"  lon="10.0386105"  quota="1802"  sens="TPRU"  />
+<marker idstaz="1218"  nome="Ardesio - Valcanale"  lat="45.9505615"  lon="9.86343"  quota="1002"  sens="TRU"  />
+<marker idstaz="1219"  nome="Casalbuttano ed Uniti"  lat="45.2559586"  lon="9.9634895"  quota="56"  sens="TRU"  />
+<marker idstaz="1220"  nome="Ponte di Legno - Case Pirli"  lat="46.2969093"  lon="10.5065603"  quota="1640"  sens="TPRU"  />
+<marker idstaz="1221"  nome="Casnigo - via Campo Sportivo"  lat="45.8339996"  lon="9.8761902"  quota="501"  sens="TRU"  />
+<marker idstaz="1222"  nome="Cavargna"  lat="46.0915489"  lon="9.1108503"  quota="1100"  sens="TPRU"  />
+<marker idstaz="1224"  nome="Cortenova"  lat="46.0074692"  lon="9.3803997"  quota="456"  sens="TRU"  />
+<marker idstaz="1227"  nome="Gardone Val Trompia"  lat="45.6924286"  lon="10.1866198"  quota="338"  sens="TPRU"  />
+<marker idstaz="1228"  nome="Goito"  lat="45.2636185"  lon="10.6636"  quota="30"  sens="TPR"  />
+<marker idstaz="1229"  nome="Gandellino - Grabiasca"  lat="46.007679"  lon="9.9478798"  quota="738"  sens="TPR"  />
+<marker idstaz="1230"  nome="Lago Truzzo"  lat="46.3605385"  lon="9.3199902"  quota="2064"  sens="TPRUDV"  />
+<marker idstaz="1233"  nome="Lurago Marinone"  lat="45.7103615"  lon="8.9723797"  quota="296"  sens="TPRVD"  />
+<marker idstaz="1234"  nome="Osnago"  lat="45.6777115"  lon="9.3885603"  quota="234"  sens="TPR"  />
+<marker idstaz="1235"  nome="Cene - Ponte Cene"  lat="45.7845497"  lon="9.8218803"  quota="361"  sens="TPR"  />
+<marker idstaz="1237"  nome="Monno - S.Giacomo"  lat="46.2503014"  lon="10.3088102"  quota="1728"  sens="TPRU"  />
+<marker idstaz="1238"  nome="Valmasino - S.Martino"  lat="46.2414513"  lon="9.6321802"  quota="943"  sens="TPRU"  />
+<marker idstaz="1239"  nome="S.Pellegrino Terme"  lat="45.8453293"  lon="9.6662703"  quota="350"  sens="TRU"  />
+<marker idstaz="1264"  nome="Sondrio - v.Paribelli"  lat="46.1678581"  lon="9.8792105"  quota="290"  sens="DDRPGVTUDV"  />
+<marker idstaz="1266"  nome="Bertonico"  lat="45.2335014"  lon="9.6662598"  quota="63"  sens="DDDRPGTUVV"  />
+<marker idstaz="1273"  nome="Bagni di Masino"  lat="46.2434616"  lon="9.5964403"  quota="1191"  sens="VUTGPRD"  />
+<marker idstaz="1274"  nome="Perledo"  lat="46.015831"  lon="9.2864199"  quota="212"  sens="R"  />
+<marker idstaz="1297"  nome="Spinadesco"  lat="45.1504707"  lon="9.9306002"  quota="48"  sens="VDTUR"  />
+<marker idstaz="1303"  nome="Cremona-v.Gerre Borghi"  lat="45.109539"  lon="10.0692396"  quota="36"  sens="DVPGUTR"  />
+<marker idstaz="1324"  nome="Limone sul Garda"  lat="45.8068314"  lon="10.79006"  quota="75"  sens="DRTUV"  />
+<marker idstaz="1325"  nome="Memmo"  lat="45.8113594"  lon="10.3155298"  quota="1069"  sens="RTUVDG"  />
+<marker idstaz="1326"  nome="Toscolano Maderno"  lat="45.6364098"  lon="10.6168804"  quota="70"  sens="DRTUV"  />
+<marker idstaz="1327"  nome="Milano-v.Rosellini"  lat="45.4869499"  lon="9.1934614"  quota="122"  sens="R"  />
+<marker idstaz="1328"  nome="Teglio"  lat="46.1582794"  lon="10.0384455"  quota="357"  sens="TR"  />
+<marker idstaz="1329"  nome="Lavena Ponte Tresa"  lat="45.9710121"  lon="8.8505993"  quota="275"  sens="TRUP"  />
+<marker idstaz="1330"  nome="Olgiate Comasco"  lat="45.7723808"  lon="8.9729786"  quota="400"  sens="TPRU"  />
+<marker idstaz="1338"  nome="Monte LetÃ¨"  lat="46.0976906"  lon="9.3367767"  quota="1110"  sens="TR"  />
+<marker idstaz="1340"  nome="Pal Alta"  lat="46.1631966"  lon="10.3772068"  quota="1305"  sens="RT"  />
+<marker idstaz="1341"  nome="Bosisio Parini"  lat="45.8035278"  lon="9.2868986"  quota="266"  sens="R"  />
+<marker idstaz="1342"  nome="Lago Reguzzo"  lat="46.0965004"  lon="9.9700909"  quota="2445"  sens="PGUTR"  />
+<marker idstaz="1343"  nome="Passo Marinelli"  lat="46.3496895"  lon="9.9151144"  quota="3050"  sens="RGUTP"  />
+<marker idstaz="1345"  nome="Piazzatorre"  lat="45.9933929"  lon="9.6932592"  quota="366"  sens="UTRP"  />
+<marker idstaz="1346"  nome="Alpe Motta"  lat="46.4231224"  lon="9.3688354"  quota="1880"  sens="VUTGPRD"  />
+<marker idstaz="1347"  nome="Piani di Bobbio"  lat="45.9594917"  lon="9.5011349"  quota="1715"  sens="VUTGPRD"  />
+<marker idstaz="1359"  nome="Lago della Vacca"  lat="45.956604"  lon="10.4444218"  quota="2401"  sens="TUDVR"  />
+<marker idstaz="1360"  nome="Clusone SP671"  lat="45.8809471"  lon="9.9331121"  quota="564"  sens="VUTGRD"  />
+<marker idstaz="1365"  nome="Bione San Bernardo"  lat="45.6672287"  lon="10.3273277"  quota="911"  sens="VUTGRD"  />
+<marker idstaz="1366"  nome="Porlezza"  lat="46.0377808"  lon="9.1405554"  quota="304"  sens="RPTUGDV"  />
+<marker idstaz="1367"  nome="Bagolino"  lat="45.8386116"  lon="10.4521694"  quota="775"  sens="UTRGVD"  />
+<marker idstaz="1371"  nome="Brembilla"  lat="45.8147545"  lon="9.60923"  quota="468"  sens="RTUVD"  />
+<marker idstaz="1372"  nome="Garzeno"  lat="46.1321526"  lon="9.2478209"  quota="581"  sens="RTU"  />
+<marker idstaz="1375"  nome="Varano Borghi"  lat="45.7663879"  lon="8.7123184"  quota="241"  sens="RTUVD"  />
+<marker idstaz="1376"  nome="Puegnago"  lat="45.5798378"  lon="10.5003309"  quota="291"  sens="RTPUVD"  />
+<marker idstaz="1378"  nome="Tignale-Oldesio"  lat="45.7326393"  lon="10.7209063"  quota="374"  sens="RTGUVD"  />
+<marker idstaz="1380"  nome="Tremezzo"  lat="45.9877167"  lon="9.2140589"  quota="309"  sens="RTPU"  />
+<marker idstaz="1382"  nome="Veddasca"  lat="46.0716705"  lon="8.768611"  quota="1302"  sens="RTUVD"  />
+<marker idstaz="1383"  nome="Sarezzo"  lat="45.6677818"  lon="10.1869402"  quota="290"  sens="RTPUVD"  />
+<marker idstaz="1422"  nome="Bergamo Arpa"  lat="45.6952057"  lon="9.6746502"  quota="249"  sens="TUGNRDVP"  />
+<marker idstaz="1423"  nome="Nembro"  lat="45.7434311"  lon="9.7594299"  quota="309"  sens="VDRNGUT"  />
+</markers>

@@ -1,0 +1,68 @@
+	
+	/** #################################
+	 * 	####  Selettori dei grafici  ####
+	 *  ################################# */
+	  
+	  table#contenitoreOsservazioni td{
+	  	
+	  }
+	  	table#contenitoreOsservazioni td{
+	  		margin: 0px;
+	  		padding: 0px;
+	  		/*border: 1px solid Black;*/
+	  		text-align: center;
+	  	}
+	  	table#contenitoreOsservazioni td button,
+	  	table#contenitoreOsservazioni td a{
+		  	font-family: Arial;
+			font-size: 8pt;
+            margin: 2px 2px;
+		  }
+	  	table#contenitoreOsservazioni td button.selettoreModalita{
+	  		width: 88px;
+			background-color: #dddddd;
+	  		border: 1px solid #aaaaaa;
+	  	}
+	  	table#contenitoreOsservazioni td button.selettoreMeteogramma,
+        table#contenitoreOsservazioni td button.selettoreGrafico{
+	  		width: 190px;
+			background-color: #dddddd;
+	  		border: 1px solid #aaaaaa;
+	  	}
+            table#contenitoreOsservazioni td button.selettoreMeteogramma:hover,
+	  		table#contenitoreOsservazioni td button.selettoreModalita:hover,
+	  		table#contenitoreOsservazioni td button.selettoreGrafico:hover{
+	  			background-color: #CCE0FF;
+	  			cursor: pointer;
+	  		}
+            table#contenitoreOsservazioni td button.selettoreMeteogramma:active,
+            table#contenitoreOsservazioni td button.selettoreGrafico:active,
+            table#contenitoreOsservazioni td button.selettoreModalita:active{
+                font-weight: bold;
+                background-color: #ffffff;
+                border: 1px solid #eeeeee;
+                outline: none;
+            }
+			table#contenitoreOsservazioni td button.selettoreGrafico.active,
+			table#contenitoreOsservazioni td button.selettoreModalita.active{
+				font-weight: bold;
+				background-color: #66A3FF;
+				border: 1px solid #000000;
+                outline: none;
+			}
+			table#contenitoreOsservazioni td button.selettoreGrafico.disabled{
+				color: #dddddd;
+				background-color: #ffffff;
+				border: 1px solid #dddddd;
+				cursor: default;
+			}
+			table#contenitoreOsservazioni td a,
+			table#contenitoreOsservazioni td a:visited{
+				color: Black;
+				text-decoration: underline;
+				padding: 3px 40px 3px 40px;
+			}
+				a img{
+					vertical-align: -3px;
+                    border: 0px;
+				}

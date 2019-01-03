@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>ARPA Lombardia - Rete di monitoraggio</title>
+		<meta charset=utf-8>
+		<!-- librerie esterne -->
+		<!--<script src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&language=it&region=IT"></script>-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4TMCojf1-AbAhGoad6odGKINgzo82JV0&v=3&sensor=false&language=it&region=IT"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<!-- fogli di stile -->
+		<link rel="stylesheet" type="text/css" href="resources/stileMappa.css"  />
+		<link rel="stylesheet" type="text/css" href="resources/stileGrafici.css"  />
+		<!-- javascript -->
+		<script src="resources/js/googleAPI3.js"></script>
+		<script src="resources/js/stazioniMonitoraggio.js"></script>
+		<script src="resources/js/osservazioniStazioni.js"></script>
+		<script>
+			$(document).ready(function() {
+				// ###  Inizializza mappa ###
+				inizializzaMappa();
+				// ### Aggiunge pannelli di controllo ###
+				pannelloDiRicerca();
+				pannelloFiltroSensori();
+				// ### Aggiunge layer stazioni ###
+				visualizzaLayerStazioni('json');
+			});
+    	</script>
+	</head>
+	
+	<body>
+		<div id="contenitoreMappa">
+			<div id="pannello-filtroSensori" class="pannelloDiControllo pannelloSfondoBianco">
+				<select id="filtroSensori" onchange="filtraSensori($(this).val());">
+					<option value="">Tutte le stazioni</option>
+					<option value="R">Pluviometro</option>
+					<option value="T">Termometro</option>
+					<option value="P">Barometro</option>
+					<option value="U">Igrometro</option>
+					<option value="V">Anemometro</option>
+					<option value="G">Radiometro (Radiazione Globale)</option>
+					<option value="N">Radiometro (Radiazione Netta)</option>
+				</select>
+				<img id="indicatoreFiltro" src="resources/img/indicator.gif" style="vertical-align: middle; display: none;" />
+			</div>
+			<div id="mappaGoogle"></div>
+            <div><p>Fonte - Arpa Lombardia - Servizio Meteorologico regionale</p></div>
+		</div>
+		<table id="contenitoreOsservazioni" style="display: none;">
+			<tr>
+				<td id="selettoriGrafici">
+					<div id="infoStazione"></div>
+					<input type="hidden" id="idStazioneCorrente" />
+					<input type="hidden" id="sensoriStazioneCorrente" />
+                    <button onclick="switchGraficoOsservazioni(this);" value="24h" class="selettoreModalita active" id="selettoreModalita24h">24h</button>
+					<button onclick="switchGraficoOsservazioni(this);" value="7gg" class="selettoreModalita" id="selettoreModalita7gg">7gg</button><br />
+                    <button onclick="apriMeteogramma(event);" class="selettoreMeteogramma" id="linkMeteogramma" >Meteogramma</button><br />
+                    <button onclick="switchGraficoOsservazioni(this);" value="PR" class="selettoreGrafico active">Pressione e Precipitazioni</button><br />
+					<button onclick="switchGraficoOsservazioni(this);" value="TU" class="selettoreGrafico">Temperatura e Umidità</button><br />
+					<button onclick="switchGraficoOsservazioni(this);" value="DV" class="selettoreGrafico">Direzione e Velocità Vento</button><br />
+					<button onclick="switchGraficoOsservazioni(this);" value="GN" class="selettoreGrafico">Radiazione Solare</button><br />
+					<button onclick="switchGraficoOsservazioni(this);" value="NV" class="selettoreGrafico">Manto Nevoso</button><br />
+					<a id="linkCSV"><img src="resources/img/txt.gif" /> CSV osservazioni</a><br />
+				</td>
+				<td>
+					<div id="graficoStazione"></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+	
+</html>
